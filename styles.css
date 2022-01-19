@@ -1,0 +1,97 @@
+:root{
+    --cor0: #18526B;
+    --cor1: #7CCCEE;
+    --cor2: #34B4EB;
+    --cor3:#385C6B;
+    --cor4:#288DB8;
+}
+
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--cor0);
+}
+body{
+    background-image: url(assets/fundo-de-pinceladas-azuis_125540-809.jpg);
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+/*----------------------------------------*/
+.intro{
+    background-color: var(--cor1);
+    padding: 20px;
+    width: 100%;
+    flex: auto;
+    flex-direction: column;
+    font-weight: 900;
+    height: 15%;
+}
+
+.intro_top{
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.intro_botton{
+    background-color: transparent;
+
+}
+
+
+/*----------------------------------------*/
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.main_top{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    }
+
+.main_botton{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        }
+
+.block{
+    border: 1px black solid;
+    background-color: var(--cor1);
+    opacity: 0.5;
+    text-align: center;
+    padding:1em;
+    width: 20%;
+    margin: 2em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    border-radius: 1em;   
+}
+
+.block:hover{
+    opacity: 1;
+    background-color: var(--cor4);
+
+}
+
+/*----------------------------------------*/
+
+footer{
+    height: 12%;
+    background-color: var(--cor1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
