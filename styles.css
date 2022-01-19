@@ -14,30 +14,31 @@
 body{
     background-image: url(assets/fundo-de-pinceladas-azuis_125540-809.jpg);
     width: 100%;
-    
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100vw;
     position: relative;
 }
 /*----------------------------------------*/
 .intro{
     background-color: var(--cor1);
     padding: 20px;
-    width: 100%;
+    width: 100vw;
     flex: auto;
     flex-direction: column;
     font-weight: 900;
-    height: 15%;
+    
 }
 
 .intro_top{
     background-color: transparent;
-    font-size: 30px;
+    font-size: min(3vw,25px);
 }
 
 .intro_botton{
     background-color: transparent;
+    font-size: min(2vw,20px);
 
 }
 
@@ -53,16 +54,17 @@ main{
 
 .main_top{
     text-align: center;
-    padding: 30px;
-    font-size: 50px;
-    font-weight: 900;
+    padding: 10px;
+    font-size: max(40px,3vw);
+    font-weight: 900;    
     }
 
 .main_botton{
-    margin-top: 30px;
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    
         }
 
 .block{
@@ -70,28 +72,29 @@ main{
     background-color: var(--cor1);
     opacity: 0.5;
     text-align: center;
-    padding:1em;
-    width: 20%;
+    padding:3%;
+    width: vw;
     margin: 2em;
     text-decoration: none;
-    font-size: 1.5em;
     font-weight: 900;
     border-radius: 1em;   
+    font-size: max(15px,2vw)
+    
 }
 
 .block:hover{
     opacity: 1;
     background-color: var(--cor4);
-
 }
 
 /*----------------------------------------*/
 
 footer{
-    height: 12%;
+    height: min(15vw,50px);
     background-color: var(--cor1);
     position: fixed;
     bottom: 0;
     width: 100%;
     padding: 15px;
+    font-size: max(1vw,10px)
 }
