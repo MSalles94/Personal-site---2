@@ -1,0 +1,137 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;  
+   color:var(--cor00);
+}
+
+:root{
+    --cor00:#011d2e;
+    --cor01:#05F2F2;
+    --cor02:#038C8C;
+    --cor03:#04D9B2;
+    --cor04:#DCFFFF;
+}
+
+body{
+    position: relative;
+    background: url(assets/back-index.jpg) no-repeat center;
+    background-size: cover;
+     
+    
+}
+
+/*--------------------------------------------*/
+header{
+    top:0;
+    background-color: var(--cor02);
+    padding: 1EM;
+    
+    width: 100vw;
+}
+
+h1{
+    margin-bottom: 10px; 
+}
+
+footer{
+    background-color: var(--cor02);
+    padding: 1em;
+    width: 100vw;
+    position: absolute;
+}
+
+@media only screen and (max-width:1280px){ /* descktop*/
+    h1{font-size: 35px;}
+    p{font-size: 25px;}
+    h2{ font-size: 40px; }
+
+
+}
+
+@media only screen and (max-width:991px){/* tablet*/
+    h1{font-size: 35px;}
+    p{font-size: 20px;}
+    h2{ font-size: 40px; }
+}
+
+@media only screen and (max-width:767px){/* landscape mobile*/
+    h1{font-size: 30px;}
+    p{font-size: 20px;}
+    h2{ font-size: 35px; }
+}
+
+@media only screen and (max-width:478px){/* mobile*/
+    h1{font-size: 20px;}
+    p{font-size: 15px;}
+    h2{ font-size: 25px; }
+}
+
+/*--------------------------------------------*/
+
+main{
+    text-align: center;
+    
+    
+}
+
+
+h2{
+    text-align: center;
+    color: var(--cor01);
+    font-weight: 900;
+    padding: 3%;
+    background-color: var(--cor00) ;
+    opacity: 0.7;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 30%;
+    margin: auto;
+    margin-top: 5%;
+    
+    
+}
+
+.main_block{
+    
+    display: flex;
+    flex: line wrap;
+    padding: 2em;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-attachment: fixed;
+    
+    height: 100vh;
+    
+}
+.block{
+    text-decoration: none;
+    color:var(--cor00);
+    text-align: center;
+    background-color: var(--cor04) ;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 1em;    
+    cursor: pointer;
+   
+}
+
+
+
+
+.block :hover{
+    color: var(--cor04);
+    border-radius: 1em;
+    background-color: var(--cor02);
+    opacity: 1;
+}
+
+.block img{
+    height: 8em;
+    border-radius: 1em;
+    border:0.5px solid var(--cor00);
+}
+
+
+
+
