@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --cor0:#8FADBF;
+    --cor1:#D8E8F2;
+    --cor2:#A6A08D;
+    --cor3:#D9AB91;
+    --cor4:#444444;
+}
+
+
+body{
+    background-color: #D8E8F2;
+    color: var(--cor4);
+    
+}
+
+/*--------BASIC ORGANIZATION-----------*/
+    header{   
+        grid-area: h;
+        border-bottom:solid 1px var(--cor4);
+        background-color: var(--cor3);
+    }
+
+    main{
+ 
+        grid-area: m;
+    }
+    aside{
+ 
+        grid-area: a;
+    }
+    footer{
+        background-color: var(--cor3);    
+        grid-area: f;
+    }
+/*--------------------HEADER-----------*/
+    h1{
+        font-size: var(--header);
+    }
+    h2{
+        font-size: var(--subtitle);
+       text-align: justify;
+    }
+    .logo{
+        height: 15vh;
+        margin: 15px;
+        border: var(--cor4) 3PX solid;
+    }
+
+
+/*--------------------MAIN-----------*/
+
+    .left_container{
+        padding: 4vh;
+        text-align: center;
+        margin-left: 1em;
+        border-left: solid var(--cor2) 1px;
+        border-right: solid var(--cor2) 1px;
+
+    }
+
+    .left_container img{
+        width:var(--imgx) ;
+    }
+
+    ul{
+        text-align: start;
+    }
+
+    li{
+        font-weight: 900;
+        font-size: var(--subtitle);
+        list-style: none;
+        margin: 10px;
+    }
+    ul p{
+        font-size: var(--text);
+    }
+
+
+/*--------------------ASIDE-----------*/
+    .right_input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        font-size: var(--text);
+        
+    }
+    h3{
+        font-size: var(--title);
+        margin-bottom: 30px;
+    }
+
+    input{
+        font-size: var(--text);
+        margin-bottom: 15px;
+    }
+    .right_input p{
+        margin: 10px;
+    }
+
+    .right_input td{
+        padding: 5px;
+    }
+
+    .other{
+        width:76px;
+    }
+    .right_tecno{
+        margin-bottom: 10px;
+        border:solid var(--cor4) 1px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .submit{
+        font-size: var(--subtitle);
+        margin-top: 30px;
+        border-radius: 10px;
+        color:black;
+    }
+    .submit:hover{
+        background-color: black;
+        color:white;
+    }
+   
+/*--------------------RESPONSIVE-----------*/
+
+
+@media (max-width:3000px){/* DESKTOP*/
+
+    :root{ 
+        --smal:16px;
+        --text:18px;
+        --title:34px;
+        --subtitle:22px;
+        --header:40px;
+        
+    }
+    body{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:20vh 75vh 5vh;
+        grid-template-areas: 
+        'h h'
+        'm a'
+        'f f';
+    }
+    .top{
+        display: flex;
+        flex-direction: line;
+    }
+
+    .top_text{
+        margin: 15px;
+    }
+    .left_img{
+        height: 20vh;
+    }
+
+
+}
+
+@media (max-width:900px){ /* tablet*/
+
+
+    :root{ 
+        --smal:15px;
+        --text:17px;
+        --title:33px;
+        --subtitle:21px;
+        --header:39px;
+    }
+    body{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:20vh 75vh 5vh;
+        grid-template-areas: 
+        'h h'
+        'm a'
+        'f f';
+    }
+    .top{
+        display: flex;
+        flex-direction: line;
+    }
+
+    .top_text{
+        margin: 15px;
+    }
+    .left_img{
+        height: 20vh;
+    }
+
+
+
+}
+
+
+@media (max-width:720px){ /* mobile*/
+    :root{ 
+        --smal:12px;
+        --text:14px;
+        --title:24px;
+        --subtitle:18px;
+        --header:32px;
+        --imgx:70vw;
+    }
+
+
+
+   body{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .logo{
+       display: none;
+   }
+    
+}
+
+.back{
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    background-color: rgb(67, 30, 134);
+    height: 3em;
+    width: 3em;
+    opacity: 0.7;
+}
+
+.back:hover{
+    opacity: 1;
+}
