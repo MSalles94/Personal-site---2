@@ -1,0 +1,139 @@
+*, body{
+    padding: 0;
+    margin: 0;
+}
+
+.back{
+    position: fixed;
+    display: flex;
+    height: 3em;
+    width: 3em;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0.8;
+    font-weight: 700;
+
+    bottom: 10px;
+    right: 10px;
+
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+.back:hover{
+    opacity: 1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    font-size: 2.4vw;
+    padding: 1vw;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+    header h1{ 
+        align-self: center;
+        
+    }
+
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    menu{
+        min-height: 10vh;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 1em;   
+        padding: 0.2em;           
+    }
+
+        menu button{
+            font-size: var(--Bfont);
+        }
+            menu button:hover{
+                background-color:black ;
+                color: white;
+            }
+
+
+    section{
+        display: flex;
+        width: var(--sectx);
+        
+        margin: 1em;
+    }
+        section div{
+            width:var(--divx) ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 1em;
+            height: var(--secty);
+
+        }
+
+        .div_img{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+        }
+
+            section img{            
+                max-width:calc(var(--divx)*0.8);
+                max-height: calc(var(--secty)*0.9);
+            }
+
+        .show_info{
+            padding: 1em;
+        }    
+            .info_estacao{
+
+                
+            }
+            .info_data{
+
+            }
+            .info_detalhe{
+                height: 6em;
+                
+            }
+
+@media (max-width:3000px){
+    :root{
+        --sectx:90vw;
+        --secty:70vh;
+
+        --divx:40vw;
+        --Bfont:3vw;
+    }
+}
+@media (max-width:1000px){
+    :root{
+        --sectx:90vw;
+        --secty:50vh;
+
+        --divx:80vw;
+        --Bfont:4vw;
+       
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

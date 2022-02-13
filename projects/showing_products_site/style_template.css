@@ -1,0 +1,65 @@
+:root{
+    --cor_linhas:grey;
+    --cor_fundo1:rgb(159, 158, 182);
+    --cor_fundo2:rgb(46, 46, 170);
+
+}
+
+
+
+header{
+    
+    background-color: var(--cor_fundo1);
+}
+
+main{
+    background-color: var(--cor_fundo2);
+}
+
+    menu{
+        background-color: var(--cor_fundo1);
+        border-radius: 2em
+    }
+        button{
+            border-radius: 1em;
+            padding: 0.3em;
+        }
+
+    section{
+        background-color:var(--cor_fundo1);
+        border-radius: 2em;
+        
+    }
+
+        img{
+            border-radius: 2em;
+        }
+
+
+
+        .show_info{
+            border: 1px var(--cor_linhas) solid;
+            border-radius: 2em;
+            background-color: var(--cor_fundo2);
+        }
+
+            .info_estacao{
+                border:1px solid var(--cor_linhas);
+                padding: 1em;
+                border-radius: 1em;
+                background-color: white;
+                
+            }
+            .info_data{
+                border:1px solid var(--cor_linhas);
+                padding: 0.5em;
+                border-radius: 1em;
+                background-color: white;
+            }
+            .info_detalhe{
+                border:1px solid var(--cor_linhas);
+                padding: 0.5em;
+                border-radius: 1em;
+                background-color: white;
+                
+            }
