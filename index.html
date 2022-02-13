@@ -4,43 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSalles</title>
+    <title>Apresentação</title>
     <link rel="stylesheet" href="style.css">
+    <link class="template" rel="stylesheet" href="style_template.css">
+    <script src="script.js"></script>
 </head>
-<body>
+<body onload='loadBlock()'>
+    <div class="top_fix">
+        <header>
+            <div>
+                <h1>Matheus Cordeiro Salles</h1>
+                <hr>
+                <p>Web Development</p>                
+            </div>
+            <a class="mylink" target="_blank" href="https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/">Linkedin</a>
 
-    <header>
-        <h1>MATHEUS CORDEIRO SALLES</h1>
-        <hr>
-        <p>
-            Front-end Dev.
-        </p>
+        </header>
 
-    </header>
-
-    <main> 
-            <H2>PROJECTS</H2>
-
-
-            <div class="main_block">
-
-            <a class="block" href="parallax/parallax.html">
-                <img src="parallax/assets/capa_parallax.png" alt="">
-                <p class="block_title"> Parallax</p>
-            </a>
-
-            <a class="block" href="calculator/calculator.html">
-                <img src="calculator/assets/capa_calculator.png" alt="">
-                <p class="block_title"> calculator</p>
-            </a>
+        <article class="project">
+            <a href=""> <img src=""></a>
+           
+            <div class="project_info">
+                <section class="project_info_name">
+                    <p>Intro</p>
+                </section>
+                <section class="project_info_coments">
+                    <p>Hello, Im Matheus and this is my portifolio. Please chose a project and see what I can do.</p>
+                </section>
 
             </div>
-    
+        </article>        
+    </div>
+
+    <main>
+
+        <menu class="select">
+
+            <div class="select_main">
+             
+                <h2>Main projects</h2>
+                <div class="select_main_blocks">
+                    
+                </div>
+            </div>
+
+            <div class="select_other">
+                <h2>Others</h2>
+                <div class="select_main_blocks select_other_blocks">
+
+                </div>
+            </div>
+        </menu>
+
     </main>
-    
     <footer>
-        <p>More information:  <a href="https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/">Linkedin</a></p>
+        <p style="padding: 1em;">Thanks for visiting</p>
+        <a class='mylink' target="_blank" href="https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/">Linkedin</a>
+        
     </footer>
-    
+
+    <button class="change" onclick="change()"> change</button>
+
+
 </body>
 </html>
