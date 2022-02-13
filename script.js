@@ -10,7 +10,8 @@ var landingPage = {nome:'landingPage', detalhe:'A web site to colect information
 
 var showProducts = {nome:'showProducts', detalhe:'A way to show diferent products and theirs characteristics',imagem:'Assets/capa_showproduct.png',link:'projects/showing_products_site/index.html',grupo:'other'};
 
-//defining groups of projects 
+
+//defining groups of projects. 
 
 var projects = [calculator, cronometro,parallax,landingPage,showProducts];
 
