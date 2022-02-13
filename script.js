@@ -8,9 +8,11 @@ var parallax = {nome:'parallax',detalhe:'Project made to test a Front end tecniq
 
 var landingPage = {nome:'landingPage', detalhe:'A web site to colect information from clients and make some kind of selling or email send. Simple but necessaire',imagem:'Assets/capa_landpg.png',link:'projects/landingpage/landingpage.html',grupo:'other'};
 
+var showProducts = {nome:'showProducts', detalhe:'A way to show diferent products and theirs characteristics',imagem:'Assets/capa_showproduct.png',link:'projects/showing_products_site/index.html',grupo:'other'};
+
 //defining groups of projects 
 
-var projects = [calculator, cronometro,parallax,landingPage];
+var projects = [calculator, cronometro,parallax,landingPage,showProducts];
 
 var main = []
 var other = []
