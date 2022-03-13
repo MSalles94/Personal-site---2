@@ -1,0 +1,107 @@
+
+
+
+.guessPuzzel_game{
+    
+    background-color: blue;
+    position: absolute;
+
+   
+    width: 90vw;
+
+    top: 5vh;
+    left: 5vw;
+
+    text-align: center;
+    padding: 1em;
+}
+
+    .guessPuzzel_header{
+        display: flex;
+        margin-bottom: 1em;
+    }
+        .guessPuzzel_header button{
+            padding: 1em;
+        }
+
+        .guessPuzzel_header button:hover{
+            color: white;
+            background-color: black;
+        }
+
+        .guessPuzzel_title{
+            width: 100%;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom:1em ;
+        }
+
+
+    .guessPuzzel_main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .guessPuzzel_display{
+            border: gray 1px solid;
+            padding: 1em;
+            display: flex;
+           justify-content:space-evenly ;
+        }
+            
+
+            .guessPuzzel_block{
+                background-color: white;
+                width: fit-content;
+            }
+                .guessPuzzel_img{
+                    height: 30vh;
+                    width: 30vh;
+
+                    filter: brightness(0);
+                }
+                .guessPuzzel_img_anser{
+                    height: 30vh;
+                    width: 30vh;
+
+                    filter: brightness(1);
+                }
+                
+            .guessPuzzel_mensage{
+                background-color: aliceblue;
+                height: 30vh;
+                width: 30vh;
+
+                font-size: 10em;
+            }
+
+
+        .guessPuzzel_pokeList{
+            
+            background-color: white;
+            margin: 1em;
+            height:120vh ;
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+        }
+
+            .guessPuzzel_pokeName{
+                border: 1px solid black;
+                padding-top: 1em;
+                padding-bottom: 1em;
+            }
+
+                .guessPuzzel_pokeName:hover{
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                }
+
+
+
+
+

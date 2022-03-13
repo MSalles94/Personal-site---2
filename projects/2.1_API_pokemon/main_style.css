@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.back_button{
+    background-color: red;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    height: 5em;
+    width: 5em;
+
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+    .back_button:hover{
+        opacity: 1;
+    }
+
+header{
+    text-align: center;
+}
+
+
+.pokedex_info{
+    background-color: red;
+    height: 70vh;
+    width: 70vw;
+    position: fixed;
+
+    top: 15vh;
+    left: 15vw;
+}
+
+    .pokedex_img{
+        background-color: white;
+    }
+
+
+
+
+.pokeList{
+    background-color: gray;
+    min-height: 80vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+    .pokeCard{
+        background-color: white;
+        border: 1px black solid;
+        max-height: fit-content;
+        max-width: fit-content;
+        margin: 1em;
+        text-align: center;
+        padding: 1em;
+        border-radius: 50%;
+        background-image:url(./assets/Pokeball.png);
+    }
+        .pokeCard:hover{
+            background-image: url('');
+            border: 1px solid red;
+            font-weight: 900;
+            
+        }
+
+
+
+        .pokeCard p{
+            text-transform: capitalize;
+        }
+
+
