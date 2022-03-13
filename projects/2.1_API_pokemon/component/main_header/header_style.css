@@ -1,0 +1,21 @@
+
+
+
+
+
+.header_guessPuzzel_button{
+    border: 1px solid red;
+    width: fit-content;
+    padding: 1em;
+    box-shadow: 3px 3px 3px black;
+    margin: 1em;
+}
+    .header_guessPuzzel_button:hover{
+        background-color: gray;
+        color: white;
+    }
+
+
+
+
+

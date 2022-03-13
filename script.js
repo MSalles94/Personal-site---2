@@ -1,8 +1,8 @@
 //projects --
 
-var calculator = {nome:'calculator',detalhe:'First JS tutorial made.',imagem:'Assets/capa_calculator.png',link:'projects/calculator/calculator.html', grupo:'main'};
+var calculator = {nome:'calculator',detalhe:'First JS tutorial made.',imagem:'Assets/capa_calculator.png',link:'projects/calculator/calculator.html', grupo:'other'};
 
-var cronometro = {nome:'cronometro',detalhe:'Project copied from a JS tutorial and improved with some DOM manipulation.',imagem:'Assets/capa_cronometro.png',link:'projects/cronometer/cronometro_1.html',grupo:'main'};
+var cronometro = {nome:'cronometro',detalhe:'Project copied from a JS tutorial and improved with some DOM manipulation.',imagem:'Assets/capa_cronometro.png',link:'projects/cronometer/cronometro_1.html',grupo:'other'};
 
 var parallax = {nome:'parallax',detalhe:'Project made to test a Front end tecnique. Not a big deal.',imagem:'Assets/capa_parallax.png',link:'projects/parallax/parallax.html',grupo:'other'};
 
@@ -10,10 +10,11 @@ var landingPage = {nome:'landingPage', detalhe:'A web site to colect information
 
 var showProducts = {nome:'showProducts', detalhe:'A way to show diferent products and theirs characteristics',imagem:'Assets/capa_showproduct.png',link:'projects/showing_products_site/index.html',grupo:'other'};
 
+var pokemonApi ={nome:'pokemonApi',detalhe:'My most complex project, an API full of DOM manipulation and organized in components (isnt responsive yet).',imagem:'Assets/capa_pokemonApi.jpg',link:'projects/2.1_API_pokemon/index.html',grupo:'main'}
 
 //defining groups of projects 
 
-var projects = [calculator, cronometro,parallax,landingPage,showProducts];
+var projects = [calculator, cronometro,parallax,landingPage,showProducts,pokemonApi];
 
 var main = []
 var other = []
