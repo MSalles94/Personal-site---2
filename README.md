@@ -1,5 +1,5 @@
 # 02-site-github--x
  
- Testing some tools.
+ -This repository was made to test some skills;
+ -There are some of my first projects here (so, they are simple);
  
-https://msalles94.github.io/Personal-site---2/
